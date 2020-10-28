@@ -1,7 +1,16 @@
+class Car
+{
+    void print()
+    {
+        System.out.println("Car name is Maruthi");
+    }
+}
+
 public class SampleClassProgram
 {
     public static void main(String args[])
     {
-        System.out.println("Sample Class");
+        Car car=new Car();
+        car.print();
     }
 }
